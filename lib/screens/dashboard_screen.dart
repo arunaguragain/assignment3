@@ -9,7 +9,7 @@ class DashboardScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final _gap = SizedBox(height: 10);
+    final gap = SizedBox(height: 10);
     return Scaffold(
       appBar: AppBar(title: Text('Dashboard')),
       body: Column(
@@ -26,7 +26,7 @@ class DashboardScreen extends StatelessWidget {
             text: 'Simple Interest',
             color: Colors.green,
           ),
-          _gap,
+          gap,
 
           MyButton(
             onPressed: () {
@@ -40,7 +40,7 @@ class DashboardScreen extends StatelessWidget {
             text: 'Arithmetic',
             color: Colors.blue,
           ),
-          _gap,
+          gap,
 
           MyButton(
             onPressed: () {
@@ -54,7 +54,7 @@ class DashboardScreen extends StatelessWidget {
             text: 'Area of circle',
             color: Colors.grey,
           ),
-          _gap,
+          gap,
 
           MyButton(
             onPressed: () {
