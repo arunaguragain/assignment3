@@ -1,6 +1,7 @@
 import 'package:assignment3/screens/area_of_circle_screen.dart';
 import 'package:assignment3/screens/arithmetic_screen.dart';
 import 'package:assignment3/screens/palindrome_screen.dart';
+import 'package:assignment3/screens/simple_interest_screen.dart';
 import 'package:assignment3/widgets/my_button.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +20,7 @@ class DashboardScreen extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute<void>(
-                  builder: (context) => const ArithmeticScreen(),
+                  builder: (context) => const SimpleInterestScreen(),
                 ),
               );
             },
